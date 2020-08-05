@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="cal_plus">+</string>
+    <string name="cal_minus">-</string>
+    <string name="cal_star">x</string>
+    <string name="cal_slash">/</string>
+    <string name="cal_roof">^</string>
+    <string name="cal_equal">=</string>
+    <string name="cal_zero">0</string>
+    <string name="cal_reset">Reset</string>
+    <string name="input_edit_text">Input</string>
+</resources>
