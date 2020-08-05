@@ -8,5 +8,16 @@
     <string name="cal_equal">=</string>
     <string name="cal_zero">0</string>
     <string name="cal_reset">Reset</string>
-    <string name="input_edit_text">Input</string>
+    <string name="cal_orientation">+/-</string>
+    <string name="cal_one">1</string>
+    <string name="cal_two">2</string>
+    <string name="cal_three">3</string>
+    <string name="cal_four">4</string>
+    <string name="cal_five">5</string>
+    <string name="cal_six">6</string>
+    <string name="cal_seven">7</string>
+    <string name="cal_eight">8</string>
+    <string name="cal_nine">9</string>
+    <string name="cal_del">Del</string>
+    <string name="cal_more">,</string>
 </resources>
