@@ -193,6 +193,9 @@ public class MainActivity extends AppCompatActivity {
         if (number_result.getText().toString().equals("Infinity")) {
             onReset(view);
         }
+        if (isWait){
+            number_result.setText("0");
+        }
         if (!number_result.getText().toString().equals("0")) {
             number_result.append("0");
         }
@@ -222,10 +225,15 @@ public class MainActivity extends AppCompatActivity {
         return  text_f;
     }
     private static String cutDouble(Double num){
-        String[] twoPart = String.valueOf(num).split("[.]");
-        if (twoPart[1].equals("0")){
-            return twoPart[0];}
-        else{return String.valueOf(num);}
-        }
+        if (!num.isInfinite()){
+            String[] twoPart = String.valueOf(num).split("[.]");
+            if (twoPart[1].equals("0")){
+                return twoPart[0];}
+            else{return String.valueOf(num);}}
+        else{return "Infinity";}
+
     }
+
+}
+
 
