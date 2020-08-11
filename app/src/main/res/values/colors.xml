@@ -2,6 +2,7 @@
 <resources>
     <color name="color_black_gray">#2D2B30</color>
     <color name="color_purple">#6F30B6</color>
+    <color name="color_white_purple">#8A5CBD</color>
     <color name="color_green">#4AC56A</color>
     <color name="color_white">#E6E6E6</color>
     <color name="color_orange">#EA9F2F</color>

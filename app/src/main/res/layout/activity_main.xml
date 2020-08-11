@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="end"
+        android:maxLength="12"
         android:text="@string/cal_zero"
         android:textColor="@color/color_white"
         android:textSize="36sp"
@@ -36,7 +37,7 @@
         app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.168"
+        app:layout_constraintVertical_bias="0.167"
         tools:ignore="OnClick" />
 
     <Button
@@ -137,6 +138,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="@color/color_purple"
+        android:onClick="onOrientation"
         android:text="@string/cal_orientation"
         android:textColor="@color/color_white"
         android:textSize="50sp"
