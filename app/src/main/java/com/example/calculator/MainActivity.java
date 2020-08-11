@@ -121,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
         double num3 = myInputFilter(number_result.getText().toString());
         num3 = -num3;
         number_result.setText(myOutputFilter(cutDouble(num3)));
+        num1 = num3;
     }
 
 
